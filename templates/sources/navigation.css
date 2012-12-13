@@ -1,0 +1,31 @@
+#mainnavigation {
+    padding-top:100px;
+    font-family: OswaldLight;
+}
+
+#mainnavigation ul {
+    border-top:1px solid #000;
+}
+
+#mainnavigation ul li {
+    display: inline;
+    margin-right: 5px;
+    position: relative;
+}
+
+#mainnavigation ul li ul {
+    display: block;
+    position: absolute;
+    top:-100px;
+    left:0;
+    width:auto;
+    text-align: center;
+}
+
+#mainnavigation ul li:hover ul {
+    display:block;
+}
+
+#mainnavigation ul li ul li {
+    display: block;
+}

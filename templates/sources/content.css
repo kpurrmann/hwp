@@ -1,0 +1,6 @@
+.box {
+    width: auto;
+    background: #ff0;
+    overflow: hidden;
+    min-height: 200px;
+}
