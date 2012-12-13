@@ -2,7 +2,23 @@
     width: auto;
     background-color: #f6f6f6;
     overflow: hidden;
-    min-height: 200px;
+}
+
+.box-content-text {
+    float: left;
+    width:10em;
+    margin-left:2em;
+    margin-top: 0.7em;
+}
+
+.box-content-text p {
+    font-size: 0.9em;
+    margin-bottom: 0.6em;
+}
+
+.box-content-image-right {
+    float: right;
+    height:16.2em;
 }
 
 .box-notify {
@@ -11,6 +27,9 @@
     background-repeat: no-repeat;
 }
 
+
+
+/* ---------------- TEASERBOX --------------*/
 .teaser-box {
     background-color: rgb(30, 50, 77);
     background-color: rgba(30, 50, 77, 0.75);
@@ -34,4 +53,5 @@
 .teaser-box-content p {
     font-size: 1.2em;
     line-height: 1.4em;
+    margin-bottom: 0.4em;
 }
