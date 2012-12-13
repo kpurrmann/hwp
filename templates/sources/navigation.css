@@ -1,9 +1,9 @@
 /* ----- MAINNAVIGATION ----------*/
 #mainnavigation {
-    padding-top:100px;
+    padding-top:9em;
     font-family: OswaldLight;
     margin: 0 1.5em;
-    font-size:1.4em;
+    font-size:1.6em;
     line-height: 1.2em;
 }
 
@@ -45,6 +45,7 @@
 #mainnavigation ul li ul li {
     display: block;
     text-transform: none;
+    font-size: 0.8em;
 }
 
 

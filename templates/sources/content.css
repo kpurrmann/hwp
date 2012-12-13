@@ -1,6 +1,37 @@
 .box {
     width: auto;
-    background: #f6f6f6;
+    background-color: #f6f6f6;
     overflow: hidden;
     min-height: 200px;
+}
+
+.box-notify {
+    background-image: url(../images/bg_box_arrow.png);
+    background-position: 0 0 ;
+    background-repeat: no-repeat;
+}
+
+.teaser-box {
+    background-color: rgb(30, 50, 77);
+    background-color: rgba(30, 50, 77, 0.75);
+    /* For IE 8*/
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+    color:#fff;
+    position: absolute;
+    bottom:1.5em;
+    left:1.5em;
+    width:24em;
+}
+
+.teaser-box-content {
+    padding: 1.3em 1.5em 1.5em 2em;
+}
+
+.teaser-box-content h2 {
+    font-size: 1.4em;
+}
+
+.teaser-box-content p {
+    font-size: 1.2em;
+    line-height: 1.4em;
 }

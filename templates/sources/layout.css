@@ -54,6 +54,12 @@ header {
     margin-bottom:3em;
 }
 
+#logo {
+    position: absolute;
+    top:4em;
+    right:3.7em;
+}
+
 footer {
     width:96em;
     margin:0em auto 1em auto;
@@ -70,11 +76,15 @@ footer {
 
 aside {
     float:right;
-    width:20em;
+    width:20.5em;
 }
 article {
     float:left;
     width: 50em;
+}
+
+#teaser {
+    position: relative;
 }
 
 
