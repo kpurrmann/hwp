@@ -1,3 +1,4 @@
+/* ----- MAINNAVIGATION ----------*/
 #mainnavigation {
     padding-top:100px;
     font-family: OswaldLight;
@@ -28,4 +29,15 @@
 
 #mainnavigation ul li ul li {
     display: block;
+}
+
+
+/* ----- FOOTERNAVIGATION ----------*/
+
+#footernavigation {
+    float:right;
+}
+
+#footernavigation ul li {
+    display:inline;
 }
