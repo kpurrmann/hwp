@@ -1,0 +1,30 @@
+PAGE 54px Abstand
+BORDER 8px
+
+LOGO RECHTS 37 OBEN 40
+
+FARBEN:
+grün: #7fc802
+Schrift: #294146
+Link: #0f8aa4
+
+TEXT:
+13px
+20px ZAB
+
+H1 25px LIGHT
+H2 14px/15px LIGHT
+
+
+TEASER 12/18
+BG #43525c 75%
+8 15 15 15
+
+MENU 16 LIGHT
+11 Abstand Unten 15 Abstand Oben
+SUB 13/22 LIGHT HOVER BOLD/SCHwarz
+
+BG BOX #f6f6f6
+
+
+FOOTER 14px LIGHT
