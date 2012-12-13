@@ -33,7 +33,7 @@
 #mainnavigation ul li ul {
     display:none;
 }
-#mainnavigation ul li:hover ul{
+#mainnavigation ul li:hover ul, #mainnavigation ul li.act ul{
     display: block;
     position: absolute;
     top: -8.3em;
