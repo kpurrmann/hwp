@@ -148,6 +148,10 @@ table tr:first-child {
     border-top: 0.2em solid #7fc802;
 }
 
+table tr:hover {
+    background: #f6f6f6;
+}
+
 table tr td:last-child {
     text-align: right;
 }
