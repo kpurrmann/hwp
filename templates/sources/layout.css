@@ -24,18 +24,21 @@ html {
     font-size:1em;
 }
 body {
-    position:relative; color: #000000;
+    position:relative; color: #294146;
     font-family: Georgia,"Bitstream Charter","Century Schoolbook L","Liberation Serif",Times,serif;
-    border-top:1em solid #ff0;
+    border-top:0.8em solid #7fc802;
     font-size:62.5%;
+    line-height: 1em;
+    background: #fff url(../images/bg.png) repeat 0 0;
 }
 
 #wrapper {
     width:97.6em;
     background: transparent;
-    margin:5em auto 0  auto;
+    margin:4.6em auto 0  auto;
     position: relative;
     overflow: hidden;
+    background: transparent url(../images/shadow_bottom.png) 0 97% no-repeat;
 }
 
 #page {
@@ -48,17 +51,21 @@ body {
 }
 
 header {
-    margin-bottom:1em;
+    margin-bottom:3em;
 }
 
 footer {
     width:96em;
-    margin:0 auto;
+    margin:0em auto 1em auto;
     overflow: hidden;
 }
 
 #content {
     overflow:hidden;
+    font-size: 1.3em;
+    line-height: 1.5em;
+    margin-left: 1.5em;
+    margin-bottom: 3em;
 }
 
 aside {
@@ -66,15 +73,18 @@ aside {
     width:20em;
 }
 article {
-    margin-left: 1em;
     float:left;
     width: 50em;
 }
 
 
 /* --- 3 Links ------------------------------------------------------------------------------------------- */
-a {  }
-a:hover {  }
+a {
+    color: #0f8aa4;
+}
+a:hover {
+    color: #7fc802;
+}
 
 
 
@@ -85,8 +95,23 @@ h1, h2, h3, h4, h5, h6 {
     text-transform: uppercase;
 }
 
+
+h1 {
+    font-size: 1.9em;
+    line-height:1em;
+    margin-bottom: 1em;
+    color: #7fc802;
+}
+
+h2 {
+    font-size:1.1em;
+    margin-bottom: 1em;
+}
+
 /* ---  5 Tags -------------------------------------------------------------------------------------------- */
-p {}
+p {
+    margin-bottom: 1.5em;
+}
 ul {  }
 li {  }
 

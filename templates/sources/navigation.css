@@ -2,22 +2,37 @@
 #mainnavigation {
     padding-top:100px;
     font-family: OswaldLight;
+    margin: 0 1.5em;
+    font-size:1.4em;
+    line-height: 1.2em;
+}
+
+#mainnavigation a {
+    color: #294146;
+    text-decoration: none;
+}
+
+#mainnavigation a:hover {
+    font-weight: bold;
 }
 
 #mainnavigation ul {
-    border-top:1px solid #000;
+    border-top:1px solid #f6f6f6;
+    padding: 0.8em 0 0.8em 0;
 }
 
-#mainnavigation ul li {
+#mainnavigation ul > li {
     display: inline;
-    margin-right: 5px;
+    margin-right: 0.5em;
     position: relative;
+    text-transform: uppercase;
+    padding-right: 1em;
 }
 
 #mainnavigation ul li ul {
     display: block;
     position: absolute;
-    top:-100px;
+    top:-10em;
     left:0;
     width:auto;
     text-align: center;
@@ -29,15 +44,31 @@
 
 #mainnavigation ul li ul li {
     display: block;
+    text-transform: none;
 }
 
 
 /* ----- FOOTERNAVIGATION ----------*/
 
 #footernavigation {
+    padding-top: 1em;
     float:right;
+    font-size: 1.4em;
 }
 
 #footernavigation ul li {
+    padding-right:0.5em;
     display:inline;
+}
+
+#footernavigation a {
+    color: #294146;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: OswaldLight;
+    line-height:1em;
+}
+
+#footernavigation a:hover {
+    font-weight:bold;
 }
