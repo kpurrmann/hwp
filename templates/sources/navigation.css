@@ -12,7 +12,7 @@
     text-decoration: none;
 }
 
-#mainnavigation a:hover {
+#mainnavigation a:hover, #mainnavigation a.act {
     font-weight: bold;
 }
 
@@ -66,7 +66,7 @@
     margin: 0;
 }
 
-#mainnavigation ul li ul li a:hover {
+#mainnavigation ul li ul li a:hover, #mainnavigation ul li ul li a.act {
     color:#7fc802;
 }
 
