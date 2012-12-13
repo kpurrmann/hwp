@@ -29,7 +29,7 @@ body {
     border-top:0.8em solid #7fc802;
     font-size:62.5%;
     line-height: 1em;
-    background: #fff url(../images/bg.png) repeat 0 0;
+    background: #fff url(../images/bg.jpg) repeat 0 0;
 }
 
 #wrapper {
@@ -89,12 +89,12 @@ article {
 
 
 /* --- 3 Links ------------------------------------------------------------------------------------------- */
-a {
+#content a {
     color: #0f8aa4;
     text-decoration: none;
 }
-a:hover {
-    color: #7fc802;
+#content a:hover {
+    border-bottom: 0.1em dotted #0f8aa4;
 }
 
 
