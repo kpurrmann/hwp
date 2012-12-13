@@ -27,15 +27,30 @@
     position: relative;
     text-transform: uppercase;
     padding-right: 1em;
+    padding-top: 0.8em;
 }
 
 #mainnavigation ul li ul {
+    display:none;
+}
+#mainnavigation ul li:hover ul{
     display: block;
     position: absolute;
-    top:-10em;
-    left:0;
-    width:auto;
+    top: -8.3em;
+    left: 0;
     text-align: center;
+    border: none;
+    height: 107px;
+    border-bottom: 3px solid #7fc802;
+    background: url(../images/arrow_up.png) center 100% no-repeat;
+}
+
+#mainnavigation ul li ul.item-1 {
+    width: 127px;
+}
+
+#mainnavigation ul li ul.item-2 {
+    width: 73px;
 }
 
 #mainnavigation ul li:hover ul {
@@ -46,6 +61,13 @@
     display: block;
     text-transform: none;
     font-size: 0.8em;
+    line-height: 2.5em;
+    padding: 0;
+    margin: 0;
+}
+
+#mainnavigation ul li ul li a:hover {
+    color:#7fc802;
 }
 
 

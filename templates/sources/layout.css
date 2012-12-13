@@ -35,7 +35,7 @@ body {
 #wrapper {
     width:97.6em;
     background: transparent;
-    margin:4.6em auto 0  auto;
+    margin:4.6em auto 2em  auto;
     position: relative;
     overflow: hidden;
     background: transparent url(../images/shadow_bottom.png) 0 97% no-repeat;
@@ -91,6 +91,7 @@ article {
 /* --- 3 Links ------------------------------------------------------------------------------------------- */
 a {
     color: #0f8aa4;
+    text-decoration: none;
 }
 a:hover {
     color: #7fc802;
