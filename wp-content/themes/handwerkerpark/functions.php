@@ -24,3 +24,12 @@ add_action('wp_enqueue_scripts', 'enqueue_styles');
 
 add_theme_support( 'post-thumbnails' );
 add_theme_support( 'menus' );
+
+
+register_sidebar(array(
+		'class' => '',
+		'before_widget' => '',
+		'after_widget' => "",
+		'before_title' => '<h2 class="hidden">',
+		'after_title' => "</h2>",
+	));

@@ -22,7 +22,7 @@ get_header(); ?>
 			<?php endwhile; // end of the loop. ?>
 
     </article>
+        <?php get_sidebar(); ?>
     </section>
 
-<?php get_sidebar(); ?>
 <?php get_footer(); ?>
