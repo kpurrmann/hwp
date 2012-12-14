@@ -29,12 +29,13 @@
                         <?php wp_nav_menu( array('menu' => 'Mainnavigation' ) ); ?>
                     </nav>
                     <div id="teaser">
+                        <?php if($teaser = get_post_custom_values('teaser')) :  ?>
                         <div class="teaser-box box-notify">
                             <div class="teaser-box-content">
-                                <h2>Lorem Ipsum</h2>
-                                <p>Das ist ein Blind Text der so weiter geht...</p>
+                                <?php echo $teaser[0]; ?>
                             </div>
                         </div>
+                        <?php endif; ?>
                         <figure>
                             <?php the_post_thumbnail(); ?>
                         </figure>
