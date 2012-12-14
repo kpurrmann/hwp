@@ -12,7 +12,8 @@
     text-decoration: none;
 }
 
-#mainnavigation a:hover, #mainnavigation a.act, #mainnavigation ul li.current-page-parent a {
+#mainnavigation a:hover, #mainnavigation a.act, #mainnavigation ul li.current-page-parent a,
+#mainnavigation ul li.current-menu-item  a {
     color:#000;
 }
 
