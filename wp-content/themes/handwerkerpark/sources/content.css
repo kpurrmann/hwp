@@ -19,6 +19,7 @@
     width: auto;
     background-color: #f6f6f6;
     overflow: hidden;
+    position: relative;
 }
 
 .box-content-text {
@@ -77,4 +78,18 @@
 
 .hidden {
     display: none;
+}
+
+.inside-hidden .box {
+    display: none;
+}
+
+#pointer {
+    position: absolute;
+    top:0;
+    left:0;
+    width:10px;
+    height:10px;
+    background: red;
+    z-index: 2;
 }

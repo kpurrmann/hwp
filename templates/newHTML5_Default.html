@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Website Title</title>
+        <!--
+             _____________
+            |       .-.   |
+            |      // ``  |
+            |     //      |
+            |  == ===-_.-'|
+            |   //  //    |
+            |__//_________|
+
+            www.familie-redlich.de
+
+        -->
+        <meta property="og:title" content="Website Title">
+        <meta property="og:site_name" content="Website Title">
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="http://www./">
+        <meta property="og:image" content="http://www./logo.jpg">
+
+        <meta charset="UTF-8">
+        <meta http-equiv="imagetoolbar" content="no">
+        <meta name="robots" content="index, follow">
+        <meta name="revisit-after" content="14 Days">
+
+        <meta http-equiv="content-language" content="de">
+        <meta name="language" content="de">
+        <meta name="geo.region" content="DE-BE">
+        <meta name="geo.position" content="52...;13...">
+        <meta name="geo.placename" content="Kunden Straße 37, 10405 Kundenort, Deutschland">
+
+        <meta name="keywords" content="">
+        <meta name="description" content="">
+
+        <meta name="author" content="familie redlich :systeme, http://www.systeme.familie-redlich.de">
+        <link rel="author" href="http://www.systeme.familie-redlich.de">
+
+        <link rel="home" title="Home" href="http://www./">
+        <link rel="icon" href="/favicon.ico">
+        <link rel="stylesheet" href="sources/www.css" type="text/css" media="screen">
+        <link rel="stylesheet" href="sources/print.css" type="text/css" media="print">
+        <script src=""></script>
+    </head>
+    <body>
+
+        <fieldset>
+            <legend>Kontaktformular</legend>
+            <div class="row"><label for="">Firma*</label>[text* firma]</div>
+            <div class="row"><label for="">Anrede</label>
+                [select* menu-878 include_blank "Herr" "Frau"]
+            </div>
+            <div class="row">
+                <label for="">Name, Vorname</label>
+                [text* name]
+            </div>
+            <div class="row">
+                <label for="">Straße, Hausnummer</label>
+                [text class:street str]
+                [text class:hsnr hsnr]
+            </div>
+            <div class="row">
+                <label for="">Adresszusatz</label>
+                [text zusatz]
+            <div class="row">
+                <label for="">PLZ, Ort</label>
+                [text class:zip plz]
+                [text class:city ort]
+            </div>
+            <div class="row">
+                <label for="">Telefon</label>
+                [text telefon]
+            <div class="row">
+                <label for="">Mobil</label>
+                [text mobil]
+            <div class="row">
+                <label for="">Email</label>
+                [email* email]
+        </fieldset>
+        <p>Bitte füllen Sie alle mit einem * gekennzeichneten Felder aus, damit wir Sie direkt und korrekt ansprechen können. Vielen Dank!</p>
+        <fieldset>
+            <div class="row row-interest">
+                <em>Ich interessiere mich für</em>
+                <div class="row row-radio">
+                    <label for="">[checkbox checkbox-686 "Büroflächen"]</label>
+                    <label for="">[checkbox checkbox-686 "Lager- und Produktionsflächen"]</label>
+                    <label for="">[checkbox checkbox-686 "Büroflächen"]Sonstige Flächen</label>
+                    <div class="row row-inline">
+                        <span>in der Größe von</span>[text gr-von]<span>bis</span>[text gr-bis]<span>qm</span>
+                    </div>
+                </div>
+            </div>
+        </fieldset>
+        <fieldset>
+            <p>Sonstige Wünsche</p>
+            [textarea textarea-796]
+            <p>Ihre Nachricht an uns</p>
+            [textarea textarea-797]
+        </fieldset>
+        [submit Senden]
+
+    </body>
+</html>
+

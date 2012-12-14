@@ -19,6 +19,7 @@
     width: auto;
     background-color: #f6f6f6;
     overflow: hidden;
+    position: relative;
 }
 
 .box-content-text {
@@ -71,4 +72,14 @@
     font-size: 1.2em;
     line-height: 1.4em;
     margin-bottom: 0.4em;
+}
+
+/* ------------------- */
+
+.hidden {
+    display: none;
+}
+
+.inside-hidden .box {
+    display: none;
 }

@@ -107,6 +107,7 @@ form .row.row-radio {
 form .row.row-radio label {
     float:none;
     margin-bottom: 0.5em;
+    width:auto;
 }
 
 form .row.row-inline input[type=text]{
