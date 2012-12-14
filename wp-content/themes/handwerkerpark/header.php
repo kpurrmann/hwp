@@ -26,7 +26,7 @@
                         </a>
                     </figure>
                     <nav id="mainnavigation">
-                        <?php wp_nav_menu( array('menu' => 'Hauptnavigation' ) ); ?>
+                        <?php wp_nav_menu( array('menu' => 'Mainnavigation' ) ); ?>
                     </nav>
                     <div id="teaser">
                         <div class="teaser-box box-notify">

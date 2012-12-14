@@ -12,10 +12,7 @@
 </section>
 <footer>
     <nav id="footernavigation">
-        <ul>
-            <li><a href="#" title="Title">Kontakt</a></li>
-            <li><a href="#" title="Title">Impressum</a></li>
-        </ul>
+       <?php wp_nav_menu( array('menu' => 'Footernavigation' ) ); ?>
     </nav>
 </footer>
 </section>

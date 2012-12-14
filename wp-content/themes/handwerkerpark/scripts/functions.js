@@ -8,7 +8,7 @@ jQuery(document).ready(function() {
 
 
   // Nicht klickbar
-  jQuery('#mainnavigation ul li.page-item-2 a:first,#mainnavigation ul li.page-item-8 a:first').click(function(){
+  jQuery('#menu-item-31 a:first,#menu-item-29 a:first').click(function(){
     return false;
   });
 
