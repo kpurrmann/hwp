@@ -1,0 +1,74 @@
+/*---- CONTENT ELEMENTE ------------*/
+
+#content article ul:last-child,
+#content article p:last-child,
+#content article table:last-child
+{
+    margin-bottom: 0;
+}
+
+#content ul {
+    margin-bottom: 1.5em;
+}
+#content li {
+    padding-left: 2em;
+}
+
+/* ----- ASIDE BOX -------- */
+.box {
+    width: auto;
+    background-color: #f6f6f6;
+    overflow: hidden;
+}
+
+.box-content-text {
+    float: left;
+    width:10em;
+    margin-left:2em;
+    margin-top: 0.7em;
+}
+
+.box-content-text p {
+    font-size: 0.9em;
+    margin-bottom: 0.6em;
+}
+
+.box-content-image-right {
+    float: right;
+    height:16.2em;
+}
+
+.box-notify {
+    background-image: url(../images/bg_box_arrow.png);
+    background-position: 0 0 ;
+    background-repeat: no-repeat;
+}
+
+
+
+/* ---------------- TEASERBOX --------------*/
+.teaser-box {
+    background-color: rgb(30, 50, 77);
+    background-color: rgba(30, 50, 77, 0.75);
+    /* For IE 8*/
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+    color:#fff;
+    position: absolute;
+    bottom:1.5em;
+    left:1.5em;
+    width:24em;
+}
+
+.teaser-box-content {
+    padding: 1.3em 1.5em 1.5em 2em;
+}
+
+.teaser-box-content h2 {
+    font-size: 1.4em;
+}
+
+.teaser-box-content p {
+    font-size: 1.2em;
+    line-height: 1.4em;
+    margin-bottom: 0.4em;
+}

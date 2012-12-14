@@ -1,0 +1,117 @@
+fieldset {
+    margin-bottom: 1.5em;
+}
+
+legend {
+    padding-bottom: 1em;
+    font-size: 1.4em;
+    display: block;
+}
+
+label {
+    display: block;
+    width:11em;
+    float: left;
+    position: relative;
+    top:0.3em;
+}
+
+input:focus, textarea:focus {
+    border-color: rgba(187, 240, 2, 0.8);
+    outline: 0;
+    outline: thin dotted;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(187, 240, 2, 1);
+    -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(187, 240, 2, 1);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(187, 240, 2, 1);
+}
+
+input[type=text],
+input[type=email],
+select,
+textarea{
+    float: left;
+    width:23em;
+    border: 0.1em solid #c0c0c0;
+    padding: 0.3em;
+    color: #294146;
+}
+
+input[type=checkbox] {
+    display:block;
+    width:1em;
+    float: left;
+    margin-top: 0.2em;
+    margin-right:0.4em;
+}
+
+select {
+    width:10em;
+    background: #fff;
+}
+
+textarea {
+    width:34em;
+    height:7em;
+}
+
+input[type=submit] {
+    font-family: OswaldRegular;
+    text-transform: uppercase;
+    color:#fff;
+    background: #7fc802;
+    padding:0.3em 1em;
+    border:0;
+}
+
+input[type=submit]:active {
+    -webkit-box-shadow: inset 0 2px 2px rgba(0, 0, 0, 0.075), 0 0 1px rgba(187, 240, 2, 1);
+    -moz-box-shadow: inset 0 2px 2px rgba(0, 0, 0, 0.075), 0 0 1px rgba(187, 240, 2, 1);
+    box-shadow: inset 0 2px 2px rgba(0, 0, 0, 0.075), 0 0 1px rgba(187, 240, 2, 1);
+}
+
+input[type=text].street {
+    width:18em;
+    margin-right:1em;
+}
+
+input[type=text].zip {
+    width:5em;
+    margin-right:1em;
+}
+
+input[type=text].city {
+    width:16.4em;
+    margin-right:1em;
+}
+
+
+
+input[type=text].hsnr {
+    width:3.4em;
+}
+
+form .row {
+    overflow: hidden;
+    padding: 0.4em 0 0.5em;
+}
+
+form .row-interest em:first-child {
+    float:left;
+    margin-right: 2em;
+}
+
+form .row.row-radio {
+    float:left;
+    width:25em;
+}
+form .row.row-radio label {
+    float:none;
+    margin-bottom: 0.5em;
+}
+
+form .row.row-inline input[type=text]{
+    width:3em;
+    float:none;
+    display: inline;
+    margin: 0 0.5em;
+}
