@@ -14,12 +14,12 @@ jQuery(document).ready(function() {
 
     if(jQuery('aside .inside-hidden').length > 0) {
         var arrow = '<img class="hidden" id="pointer" rc="wp-content/themes/handwerkerpark/images/arrow_up.png">';
-        jQuery('body').append(arrow);
+        jQuery('#content').append(arrow);
         jQuery('table tr').hover(function(){
             var i = jQuery(this).index();
             var margin = parseInt(jQuery('#wrapper').css('margin-top'))+38;
             var offset = jQuery(this).offset().top-jQuery('header').height()-margin;
-            jQuery('#pointer').css('top', jQuery(this).offset().top+13).css('left', '95.7em').show();
+            jQuery('#pointer').css('top', offset+12).css('left', jQuery(this).css('width')).show();
             jQuery('aside .inside-hidden .box:eq('+i+')').css('top', offset).stop().fadeIn();
         }, function(){
             var i = jQuery(this).index();
@@ -28,7 +28,32 @@ jQuery(document).ready(function() {
         });
     }
 
-    jQuery('.gallery a').colorbox();
+    jQuery('.gallery a').colorbox({
+        opacity : '0.75'
+    });
 
 
+});
+
+jQuery(function() {
+
+   /**
+    * Overwrite of wp-content/plugins/contact-form-7/includes/js/scripts.js
+    **/
+    jQuery.fn.wpcf7NotValidTip = function(message) {
+        return this.each(function() {
+            var label = jQuery(this).siblings('label');
+            var input = jQuery(this).find('input');
+            if(input.length < 1) {
+                input = jQuery(this).find('select');
+            }
+            label.addClass('error');
+            input.addClass('error');
+
+            input.focus(function(){
+                input.removeClass('error');
+                label.removeClass('error');
+            });
+        });
+    }
 });
