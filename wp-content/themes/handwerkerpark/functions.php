@@ -54,3 +54,6 @@ function addlightboxrel_replace ($content)
     $content = preg_replace($pattern, $replacement, $content);
     return $content;
 }
+
+add_filter('gallery_style', create_function('$a', 'return "
+<div class=\'gallery\'>";'));
