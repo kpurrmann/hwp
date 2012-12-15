@@ -93,3 +93,27 @@
     background: red;
     z-index: 2;
 }
+
+/* ------- GALERIE --------*/
+.gallery {
+    overflow: hidden;
+}
+
+.gallery .gallery-item {
+    margin-right:1em;
+    margin-bottom: 1em;
+    float:left;
+    position: relative;
+    width:15em;
+    height:15em;
+}
+
+.gallery img {
+    border:0;
+}
+
+.gallery a:hover img {
+    border: 0.5em solid #7fc802;
+    width:95%;
+    height:95%;
+}
