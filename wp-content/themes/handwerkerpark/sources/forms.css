@@ -116,3 +116,11 @@ form .row.row-inline input[type=text]{
     display: inline;
     margin: 0 0.5em;
 }
+
+form label.error {
+    color:red;
+}
+
+form input.error, form select.error {
+    border: 1px solid red;
+}
