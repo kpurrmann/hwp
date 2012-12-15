@@ -1,0 +1,5 @@
+input[type=text].street,
+input[type=text].zip,
+input[type=text].city {
+    margin-right:.9em;
+}
