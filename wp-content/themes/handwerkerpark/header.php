@@ -12,7 +12,7 @@
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
     <head>
-        <title><?php wp_title('|', true, 'right'); ?></title>
+        <title><?php wp_title('|', true, 'right'); ?> Handwerkerpark</title>
         <meta charset="<?php bloginfo('charset'); ?>">
         <?php wp_head(); ?>
     </head>
@@ -37,7 +37,12 @@
                         </div>
                         <?php endif; ?>
                         <figure>
-                            <?php the_post_thumbnail(); ?>
+                            <?php $header_image = get_the_post_thumbnail();  ?>
+                            <?php if($header_image) :  ?>
+                            <?php the_post_thumbnail()  ?>
+                            <?php else : ?>
+                            <?php echo get_the_post_thumbnail(2)  ?>
+                            <?php endif; ?>
                         </figure>
                     </div>
                 </header>
